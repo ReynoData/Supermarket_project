@@ -1,0 +1,71 @@
+{
+  "supermercados": [
+    {
+      "nombre": "Supermercado ABC",
+      "direccion": "Calle 123",
+      "geolocalizacion": {
+        "latitud": 40.12345,
+        "longitud": -3.67890
+      },
+
+      
+      "productos": [
+        {
+          "nombre": "Leche",
+          "oferta": true,
+          "periodo_de_vigencia": "01/04/2023 - 15/04/2023",
+          "habitual": false,
+          "unidades": 1,
+          "unidad_de_medida": "litro",
+          "precio": 1.50,
+          "adquirido": false
+        },
+        {
+          "nombre": "Huevos",
+          "oferta": false,
+          "periodo_de_vigencia": "",
+          "habitual": true,
+          "unidades": 12,
+          "unidad_de_medida": "unidades",
+          "precio": 2.99,
+          "adquirido": true
+        }
+      ]
+    },
+
+
+
+    {
+      "nombre": "Supermercado ZXY",
+      "direccion": "Avenida 456",
+      "geolocalizacion": {
+        "latitud": 40.23456,
+        "longitud": -3.78901
+      },
+
+
+      "productos": [
+        {
+          "nombre": "Pan",
+          "oferta": true,
+          "periodo_de_vigencia": "01/04/2023 - 15/04/2023",
+          "habitual": false,
+          "unidades": 1,
+          "unidad_de_medida": "unidad",
+          "precio": 0.80,
+          "adquirido": false
+        },
+        {
+          "nombre": "Cereales",
+          "oferta": false,
+          "periodo_de_vigencia": "",
+          "habitual": true,
+          "unidades": 1,
+          "unidad_de_medida": "caja",
+          "precio": 3.50,
+          "adquirido": false
+        }
+      ]
+    }
+  ]
+}
